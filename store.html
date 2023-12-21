@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Information</title>
+    <style type="text/css">
+        #form1{
+            border-style: solid;
+            margin: 0 auto;
+            width: 500px;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+        
+        <form id = "form1" action="#" method="post">
+            <h2>Customer Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="phone">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="days">Preferred Days of Purchasing:</label>
+            <select id="item" name="item">
+                <option value="Sunday">Sunday</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+            </select><br><br>
+
+
+            <label for="item">Favorite Items:</label>
+            <select id="item" name="item">
+                <option value="clothing">Clothes</option>
+                <option value="electronics">Electronics</option>
+                <option value="groceries">Groceries</option>
+                <option value="furniture">Furniture</option>
+                <option value="other">Others</option>
+            </select><br><br>
+
+            <label for="suggestions">Suggestions:</label>
+            <textarea  rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    
+</body>
+</html>
